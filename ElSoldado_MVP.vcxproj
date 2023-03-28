@@ -127,8 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Model\Arma.cpp" />
+    <ClCompile Include="Model\Escopeta.cpp" />
+    <ClCompile Include="Model\Revolver.cpp" />
+    <ClCompile Include="Model\Rifle.cpp" />
     <ClCompile Include="Model\Soldado.cpp" />
+    <ClCompile Include="View\Show.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Model\Arma.h" />
+    <ClInclude Include="Model\Soldado.h" />
+    <ClInclude Include="View\Show.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
